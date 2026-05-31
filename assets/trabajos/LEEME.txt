@@ -1,0 +1,15 @@
+PON AQUÍ LAS FOTOS DE TUS TRABAJOS.
+
+Nómbralas exactamente así para que aparezcan en la página:
+  trabajo-1.jpg
+  trabajo-2.jpg
+  trabajo-3.jpg
+  trabajo-4.jpg
+  trabajo-5.jpg
+  trabajo-6.jpg
+
+Consejos:
+- Fotos horizontales (apaisadas) se ven mejor.
+- Buena luz, trabajo limpio y terminado.
+- Si no tienes fotos, Oficina IA Bot las genera con los prompts de
+  ../../marca/prompts-imagenes.md
