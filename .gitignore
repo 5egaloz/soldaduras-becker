@@ -9,3 +9,6 @@ desktop.ini
 
 # Fotos originales sin comprimir (respaldo local, no subir)
 assets/originales-backup/
+
+# Fotos crudas recibidas por Telegram (no publicar)
+assets/fotos-recibidas/
