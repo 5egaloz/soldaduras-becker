@@ -1,64 +1,34 @@
-# ✅ TAREAS — Lo que TÚ harás después (en orden)
+# ✅ TAREAS — Página Soldaduras Becker
 
-> El paquete ya está construido. Esto es lo único que falta y que solo tú puedes hacer.
+> **🌐 PÁGINA PUBLICADA (2026-06-09):** https://5egaloz.github.io/soldaduras-becker/
+> Repo: https://github.com/5egaloz/soldaduras-becker
 
-## 1. Loguearte en GitHub (1 vez)
-En el prompt de Claude Code escribe:
-```
-! gh auth login --web
-```
-Elige: `GitHub.com` → `HTTPS` → `Y` → copia el código → ábrelo en el navegador.
+## ✅ Hecho (2026-06-09)
+- [x] Login GitHub (`gh` como **5egaloz`**)
+- [x] Repo creado y subido: `soldaduras-becker`
+- [x] GitHub Pages activado (branch main / root)
+- [x] WhatsApp +56 9 5391 0713 en los 3 botones
+- [x] Nombre: **Soldaduras Becker · Fierro y Madera**
+- [x] Zona: Coyhaique y alrededores
+- [x] Galería con 8 fotos REALES (giro a fierro y madera)
+- [x] og:image con URL absoluta (foto al compartir por WhatsApp)
 
-## 2. Crear y subir el repo R1
-Una vez logueado, dime **"ya me logueé"** y yo corro la creación y subida automática.
-(O tú mismo, parado en la carpeta R1:)
-```
-gh repo create R1 --public --source . --remote origin --push
-```
+## 📌 Lo que queda (opcional, cuando quieras)
+- [ ] Revisar el **horario** en la sección contacto (quedó "Lun a Sáb · 8:00 a 18:00" por defecto)
+- [ ] Llenar `marca/negocio.md` con los datos del negocio (alimenta a Oficina IA Bot)
+- [ ] Compartir el link: estados de WhatsApp, Facebook Marketplace, grupos de Coyhaique
+- [ ] Pedir testimonio a la tienda de vinos y al del container (¡ya son clientes reales!)
+- [ ] Dominio propio (ej. soldadurasbecker.cl) — recién cuando la página traiga clientes
 
-## 3. Activar la página web (GitHub Pages)
-En GitHub.com → repo **R1** → **Settings → Pages**:
-- Source: **Deploy from a branch**
-- Branch: **main** / carpeta **/(root)** → **Save**
-- En ~1 min tu página estará en: `https://TU-USUARIO.github.io/R1/`
-
-## 4. Llenar los datos del negocio
-Abre `marca/negocio.md` y llena todos los campos `[...]`.
-Esto lo necesita la página **y** Oficina IA Bot.
-
-## 5. Personalizar la página (`index.html`)
-- [ ] Poner tu **número de WhatsApp** (busca `569XXXXXXXX`, 4 lugares).
-- [ ] Poner el **nombre del negocio** (busca `Soldadura [TU NEGOCIO]`).
-- [ ] Poner **teléfono, zona y horario** (sección contacto).
-
-## 6. Fotos de trabajos
-- [ ] Mete 6 fotos en `assets/trabajos/` como `trabajo-1.jpg` … `trabajo-6.jpg`.
-- [ ] ¿No tienes fotos? → Oficina IA Bot las genera con `marca/prompts-imagenes.md`.
-
-## 7. Después de publicar: imagen de WhatsApp (og:image)
-Para que el link se vea con foto al compartirlo por WhatsApp, la URL debe ser
-**absoluta**. Una vez que sepas tu URL de GitHub Pages, en `index.html` cambia:
-```
-<meta property="og:image" content="assets/og-imagen.jpg" />
-```
-por:
-```
-<meta property="og:image" content="https://TU-USUARIO.github.io/R1/assets/og-imagen.jpg" />
-```
-(La imagen `assets/og-imagen.jpg` ya existe, creada el 2026-06-09.)
-
-## 8. Volver a publicar cambios
-Cada vez que edites algo:
+## 🔄 Para publicar cambios futuros
+Cualquier edición (fotos nuevas, textos, precios):
 ```
 git add .
-git commit -m "Actualizo datos y fotos"
+git commit -m "Actualizo página"
 git push
 ```
-La página se actualiza sola en ~1 min.
+La página se actualiza sola en ~1 minuto.
 
----
 ### 🤖 Conexión con Oficina IA Bot
-Cuando los datos (`marca/negocio.md`) y los prompts estén listos, los agentes pueden:
-1. Leer `marca/negocio.md` para el contexto.
-2. Generar imágenes con `marca/prompts-imagenes.md`.
-3. Guardarlas en `assets/` y hacer commit/push para publicarlas.
+Cuando la Oficina IA reviva (recarga de créditos), puede leer `marca/negocio.md`
+para generar posts y material de marketing de Soldaduras Becker.
