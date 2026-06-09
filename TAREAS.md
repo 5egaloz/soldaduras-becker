@@ -35,7 +35,19 @@ Esto lo necesita la página **y** Oficina IA Bot.
 - [ ] Mete 6 fotos en `assets/trabajos/` como `trabajo-1.jpg` … `trabajo-6.jpg`.
 - [ ] ¿No tienes fotos? → Oficina IA Bot las genera con `marca/prompts-imagenes.md`.
 
-## 7. Volver a publicar cambios
+## 7. Después de publicar: imagen de WhatsApp (og:image)
+Para que el link se vea con foto al compartirlo por WhatsApp, la URL debe ser
+**absoluta**. Una vez que sepas tu URL de GitHub Pages, en `index.html` cambia:
+```
+<meta property="og:image" content="assets/og-imagen.jpg" />
+```
+por:
+```
+<meta property="og:image" content="https://TU-USUARIO.github.io/R1/assets/og-imagen.jpg" />
+```
+(La imagen `assets/og-imagen.jpg` ya existe, creada el 2026-06-09.)
+
+## 8. Volver a publicar cambios
 Cada vez que edites algo:
 ```
 git add .

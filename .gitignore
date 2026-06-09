@@ -6,3 +6,6 @@ desktop.ini
 # Temporales
 *.tmp
 *~
+
+# Fotos originales sin comprimir (respaldo local, no subir)
+assets/originales-backup/
