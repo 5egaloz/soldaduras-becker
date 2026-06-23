@@ -8,6 +8,10 @@
   <meta name="description" content="Muebles y estructuras en fierro y madera hechos a medida: estanterías para negocios y bodegas, mesas, mesones, repisas y soldadura general. Presupuesto sin compromiso por WhatsApp." />
   <meta name="theme-color" content="#0f1115" />
 
+  <!-- Seguridad: Content-Security-Policy (defensa en profundidad) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; base-uri 'self'; form-action 'self'" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
   <!-- Open Graph (cómo se ve al compartir el link en WhatsApp/Facebook) -->
   <meta property="og:title" content="Muebles y Estructuras en Fierro y Madera" />
   <meta property="og:description" content="Estanterías, mesas, mesones y muebles a medida en fierro y madera. Pide tu presupuesto por WhatsApp." />
@@ -29,8 +33,8 @@
         <span class="brand__name" data-edit="nombre-negocio">Soldaduras Becker · Fierro y Madera</span>
       </a>
       <nav class="nav__links">
-        <a href="#servicios">Servicios</a>
         <a href="#trabajos">Trabajos</a>
+        <a href="#servicios">Servicios</a>
         <a href="#porque">Por qué nosotros</a>
         <a href="#contacto" class="nav__cta">Cotizar</a>
       </nav>
@@ -42,7 +46,7 @@
     <div class="container hero__content">
       <p class="hero__eyebrow">FIERRO · MADERA · SOLDADURA</p>
       <h1 class="hero__title">Muebles en fierro y madera<br><span>que duran años, no meses.</span></h1>
-      <p class="hero__sub">Estanterías para negocios y bodegas, mesas, mesones, repisas y muebles a medida. Fierro soldado + madera bien terminada, a tiempo y con garantía.</p>
+      <p class="hero__sub">Estanterías, mesas, mesones y muebles a medida. Fierro soldado + madera, a tiempo y con garantía.</p>
       <div class="hero__actions">
         <!-- ====== EDITA: tu WhatsApp en data-wa (código país + número, sin + ni espacios). Chile: 56953910713 ====== -->
         <a class="btn btn--wa" href="#" data-wa="56953910713" data-msg="Hola, vi su página y quiero cotizar un mueble o estructura a medida.">
@@ -58,27 +62,11 @@
     </div>
   </section>
 
-  <!-- ====== SERVICIOS ====== -->
-  <section class="section" id="servicios">
-    <div class="container">
-      <h2 class="section__title">Lo que hago</h2>
-      <p class="section__lead">Fierro soldado, madera bien trabajada, o los dos juntos. Todo a la medida de tu espacio.</p>
-      <div class="grid grid--3">
-        <article class="card"><div class="card__icon">🏪</div><h3>Estanterías para negocios</h3><p>Estanterías metálicas y de madera para tiendas, bodegas y containers. Firmes, a la medida exacta de tu local.</p></article>
-        <article class="card"><div class="card__icon">🪵</div><h3>Mesas y mesones</h3><p>Mesas de comedor con patas de fierro, mesones de trabajo, mesas de centro. El estilo industrial que dura.</p></article>
-        <article class="card"><div class="card__icon">🗄️</div><h3>Muebles fierro + madera</h3><p>Estanterías estilo industrial, racks, soportes y muebles combinando estructura metálica con madera.</p></article>
-        <article class="card"><div class="card__icon">📐</div><h3>Repisas y muebles de madera</h3><p>Repisas, fruteros, porta-plantas, muebles de cocina y lo que tu casa necesite.</p></article>
-        <article class="card"><div class="card__icon">⚡</div><h3>Soldadura general</h3><p>Rejas, portones, reparaciones y refuerzos. Si es de metal, lo soldamos para que no vuelva a fallar.</p></article>
-        <article class="card"><div class="card__icon">✨</div><h3>Trabajo a medida</h3><p>¿Tienes una idea o una foto de referencia? Mándamela y lo fabricamos a tu medida.</p></article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ====== TRABAJOS / GALERÍA ====== -->
+  <!-- ====== TRABAJOS / GALERÍA (fotos primero) ====== -->
   <section class="section section--dark" id="trabajos">
     <div class="container">
       <h2 class="section__title">Trabajos reales</h2>
-      <p class="section__lead">Nada de fotos de catálogo: esto salió de mi taller y está en uso hoy.</p>
+      <p class="section__lead">Salió de mi taller y está en uso hoy.</p>
       <div class="gallery">
         <figure class="gallery__item"><img src="assets/trabajos/trabajo-1.jpg" alt="Estantería industrial de fierro negro y madera instalada en casa de cliente" loading="lazy" /></figure>
         <figure class="gallery__item"><img src="assets/trabajos/trabajo-2.jpg" alt="Mueble exhibidor de madera a medida para tienda de vinos" loading="lazy" /></figure>
@@ -88,6 +76,22 @@
         <figure class="gallery__item"><img src="assets/trabajos/trabajo-6.jpg" alt="Mesón de estructura de fierro con cubiertas de madera" loading="lazy" /></figure>
         <figure class="gallery__item"><img src="assets/trabajos/trabajo-7.jpg" alt="Mesa redonda de madera con base circular de fierro soldado" loading="lazy" /></figure>
         <figure class="gallery__item"><img src="assets/trabajos/trabajo-8.jpg" alt="Repisa zigzag de madera nativa hecha a medida" loading="lazy" /></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SERVICIOS (info condensada) ====== -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <h2 class="section__title">Lo que hago</h2>
+      <p class="section__lead">Fierro, madera o los dos. Todo a la medida de tu espacio.</p>
+      <div class="grid grid--3">
+        <article class="card"><div class="card__icon">🏪</div><h3>Estanterías para negocios</h3><p>Tiendas, bodegas y containers. Firmes y a medida.</p></article>
+        <article class="card"><div class="card__icon">🪵</div><h3>Mesas y mesones</h3><p>Comedor, trabajo o centro. Patas de fierro que duran.</p></article>
+        <article class="card"><div class="card__icon">🗄️</div><h3>Muebles fierro + madera</h3><p>Racks, soportes y muebles estilo industrial.</p></article>
+        <article class="card"><div class="card__icon">📐</div><h3>Repisas y muebles de madera</h3><p>Repisas, fruteros y muebles para tu casa.</p></article>
+        <article class="card"><div class="card__icon">⚡</div><h3>Soldadura general</h3><p>Rejas, portones, reparaciones y refuerzos.</p></article>
+        <article class="card"><div class="card__icon">✨</div><h3>Trabajo a medida</h3><p>Mándame una foto de referencia y lo fabricamos.</p></article>
       </div>
     </div>
   </section>
