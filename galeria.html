@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galería de Trabajos | Soldaduras Becker · Fierro y Madera en Coyhaique</title>
+  <meta name="description" content="Galería de trabajos reales de Soldaduras Becker: estanterías, mesas, mesones, muebles fierro + madera y soldadura hechos a medida en Coyhaique. Toca una foto para verla en grande." />
+  <meta name="theme-color" content="#0f1115" />
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; base-uri 'self'; form-action 'self'" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <meta property="og:title" content="Galería de Trabajos | Soldaduras Becker" />
+  <meta property="og:description" content="Trabajos reales en fierro y madera, hechos a medida en Coyhaique. Mira la galería y pide tu presupuesto por WhatsApp." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://5egaloz.github.io/soldaduras-becker/galeria.html" />
+  <meta property="og:image" content="https://5egaloz.github.io/soldaduras-becker/assets/og-imagen.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ====== BARRA SUPERIOR ====== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="brand">
+        <span class="brand__spark">⚡</span>
+        <span class="brand__name" data-edit="nombre-negocio">Soldaduras Becker</span>
+      </a>
+      <button class="nav__toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links" id="menu">
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="galeria.html" class="is-active">Trabajos</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="faq.html">FAQ</a>
+        <a class="nav__ig" href="https://www.instagram.com/muebleria.becker/" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
+        <a href="#" class="nav__cta" data-wa="56953910713" data-msg="Hola, vi su galería y quiero cotizar un trabajo parecido.">Cotizar</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ====== CABECERA ====== -->
+  <section class="page-header">
+    <div class="container">
+      <p class="crumbs"><a href="index.html">Inicio</a> › Trabajos</p>
+      <p class="page-header__eyebrow">PORTAFOLIO</p>
+      <h1>Trabajos <span>reales</span> del taller</h1>
+      <p>Cada pieza salió de mi taller y hoy está en uso. Toca cualquier foto para verla en grande. ¿Quieres algo parecido? Mándamela por WhatsApp y la cotizamos.</p>
+    </div>
+  </section>
+
+  <!-- ====== GALERÍA ====== -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="gallery">
+        <figure class="gallery__item"><img src="assets/trabajos/trabajo-1.jpg" alt="Estantería industrial de fierro negro y madera instalada en casa de cliente" loading="lazy" /></figure>
+        <figure class="gallery__item"><img src="assets/trabajos/trabajo-2.jpg" alt="Mueble exhibidor de madera a medida para tienda" loading="lazy" /></figure>
+        <figure class="gallery__item"><img src="assets/trabajos/trabajo-3.jpg" alt="Mesa de comedor de madera con patas X de fierro soldado" loading="lazy" /></figure>
+        <figure class="gallery__item"><img src="assets/trabajos/trabajo-4.jpg" alt="Estanterías metálicas soldadas y pintadas para bodega" loading="lazy" /></figure>
+        <figure class="gallery__item"><img src="assets/trabajos/trabajo-5.jpg" alt="Estantería metálica a medida instalada dentro de container de bodega" loading="lazy" /></figure>
+        <figure class="gallery__item"><img src="assets/trabajos/trabajo-6.jpg" alt="Mesón de estructura de fierro con cubierta de madera" loading="lazy" /></figure>
+        <figure class="gallery__item"><img src="assets/trabajos/trabajo-7.jpg" alt="Mesa redonda de madera con base circular de fierro soldado" loading="lazy" /></figure>
+        <figure class="gallery__item"><img src="assets/trabajos/trabajo-8.jpg" alt="Repisa zigzag de madera nativa hecha a medida" loading="lazy" /></figure>
+
+        <!-- ====== AGREGAR MÁS FOTOS ======
+             Para sumar trabajos, copia una línea de arriba y cambia el nombre del archivo.
+             Pon las fotos nuevas en la carpeta assets/trabajos/ y describe la foto en alt="...".
+             Ejemplo:
+             <figure class="gallery__item"><img src="assets/trabajos/trabajo-9.jpg" alt="Describe aquí el trabajo" loading="lazy" /></figure>
+        -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CTA ====== -->
+  <section class="section cta">
+    <div class="container cta__inner">
+      <h2>¿Te gustó alguno?</h2>
+      <p>Lo adapto a tu espacio y presupuesto. Mándame la foto que te gustó y te cotizo sin compromiso.</p>
+      <a class="btn btn--wa btn--big" href="#" data-wa="56953910713" data-msg="Hola, vi su galería y quiero algo parecido a uno de sus trabajos.">
+        <span class="btn__icon">📲</span> Quiero algo así
+      </a>
+      <div class="cta__alt">
+        <p>📞 Tel: <a href="tel:+56953910713" data-edit="telefono">+56 9 5391 0713</a></p>
+        <p>📍 Zona de servicio: <span data-edit="zona">Coyhaique y alrededores</span></p>
+        <p>📷 Más fotos en <a href="https://www.instagram.com/muebleria.becker/" target="_blank" rel="noopener">Instagram</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <nav class="footer__links">
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="galeria.html">Trabajos</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="faq.html">FAQ</a>
+        <a href="https://www.instagram.com/muebleria.becker/" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+      <span data-edit="nombre-negocio">Soldaduras Becker · Fierro y Madera</span>
+      <span>© <span id="year"></span> · Hecho con orgullo en fierro y madera</span>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="#" data-wa="56953910713" data-msg="Hola, vi su página y quiero un presupuesto." aria-label="WhatsApp">
+    <span>💬</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

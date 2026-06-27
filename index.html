@@ -28,15 +28,21 @@
   <!-- ====== BARRA SUPERIOR ====== -->
   <header class="nav" id="inicio">
     <div class="container nav__inner">
-      <a href="#inicio" class="brand">
+      <a href="index.html" class="brand">
         <span class="brand__spark">⚡</span>
-        <span class="brand__name" data-edit="nombre-negocio">Soldaduras Becker · Fierro y Madera</span>
+        <span class="brand__name" data-edit="nombre-negocio">Soldaduras Becker</span>
       </a>
-      <nav class="nav__links">
-        <a href="#trabajos">Trabajos</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#porque">Por qué nosotros</a>
-        <a href="#contacto" class="nav__cta">Cotizar</a>
+      <button class="nav__toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links" id="menu">
+        <a href="index.html" class="is-active">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="galeria.html">Trabajos</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="faq.html">FAQ</a>
+        <a class="nav__ig" href="https://www.instagram.com/muebleria.becker/" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
+        <a href="#" class="nav__cta" data-wa="56953910713" data-msg="Hola, vi su página y quiero cotizar un mueble o trabajo a medida.">Cotizar</a>
       </nav>
     </div>
   </header>
@@ -128,6 +134,14 @@
 
   <footer class="footer">
     <div class="container footer__inner">
+      <nav class="footer__links">
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="galeria.html">Trabajos</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="faq.html">FAQ</a>
+        <a href="https://www.instagram.com/muebleria.becker/" target="_blank" rel="noopener">Instagram</a>
+      </nav>
       <span data-edit="nombre-negocio">Soldaduras Becker · Fierro y Madera</span>
       <span>© <span id="year"></span> · Hecho con orgullo en fierro y madera</span>
     </div>
