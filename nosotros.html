@@ -7,7 +7,7 @@
   <meta name="description" content="Conoce a Soldaduras Becker: un taller de Coyhaique que fabrica estanterías, mesas y muebles en fierro y madera a medida, con precio claro, fecha respetada y garantía por escrito." />
   <meta name="theme-color" content="#0f1115" />
 
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; base-uri 'self'; form-action 'self'" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; base-uri 'self'; form-action 'self'" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
 
   <meta property="og:title" content="Sobre el taller | Soldaduras Becker" />
@@ -15,6 +15,37 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://5egaloz.github.io/soldaduras-becker/nosotros.html" />
   <meta property="og:image" content="https://5egaloz.github.io/soldaduras-becker/assets/og-imagen.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sobre el taller | Soldaduras Becker" />
+  <meta name="twitter:description" content="Un taller de Coyhaique que fabrica en fierro y madera a medida, con precio claro, fecha respetada y garantía." />
+  <meta name="twitter:image" content="https://5egaloz.github.io/soldaduras-becker/assets/og-imagen.jpg" />
+
+  <link rel="canonical" href="https://5egaloz.github.io/soldaduras-becker/nosotros.html" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Datos estructurados para Google (negocio local) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Soldaduras Becker",
+    "description": "Taller de muebles y estructuras en fierro y madera a medida: estanterías, mesas, mesones, repisas y soldadura general.",
+    "url": "https://5egaloz.github.io/soldaduras-becker/",
+    "image": "https://5egaloz.github.io/soldaduras-becker/assets/og-imagen.jpg",
+    "telephone": "+56953910713",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Coyhaique",
+      "addressRegion": "Región de Aysén",
+      "addressCountry": "CL"
+    },
+    "areaServed": "Coyhaique y alrededores, Región de Aysén, Chile",
+    "openingHours": "Mo-Sa 08:00-18:00",
+    "priceRange": "$$",
+    "sameAs": ["https://www.instagram.com/muebleria.becker/"]
+  }
+  </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -105,7 +136,7 @@
       </a>
       <div class="cta__alt">
         <p>📞 Tel: <a href="tel:+56953910713" data-edit="telefono">+56 9 5391 0713</a></p>
-        <p>📍 Zona de servicio: <span data-edit="zona">Coyhaique y alrededores</span></p>
+        <p>📍 Zona de servicio: <span data-edit="zona">Coyhaique y alrededores, Región de Aysén, Chile</span></p>
         <p>🕗 Horario: <span data-edit="horario">Lun a Sáb · 8:00 a 18:00</span></p>
       </div>
     </div>
@@ -131,5 +162,6 @@
   </a>
 
   <script src="script.js"></script>
+  <script src="analytics.js"></script>
 </body>
 </html>
