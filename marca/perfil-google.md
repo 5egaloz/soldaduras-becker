@@ -7,18 +7,26 @@
 
 ---
 
-> ✅ **ACTUALIZACIÓN 2026-07-05:** el perfil YA EXISTE ("soldaduras becker", Sargento Aldea 221,
-> Coyhaique) pero **no aparece en búsquedas web** → falta verificarlo y/o completarlo.
-> El Paso 1 cambia a: entrar, revisar estado de verificación y completar todo lo de abajo.
+> ✅ **DIAGNÓSTICO 2026-07-05 (perfil visto en Maps):** el perfil EXISTE y está publicado como
+> **"Soldadura Becker y construcción"** · categoría: solo "Soldador" · Sgto. Aldea 221 ·
+> 9 5391 0713 · **SIN sitio web · SIN reseñas · SIN fotos destacadas** · horario: abre lun 9 a.m.
+> (⚠️ distinto al del sitio web: Lu–Sa 8–18 — confirmar cuál es el real).
+> Está vivo pero vacío → por eso no compite. Checklist abajo, en orden de impacto.
 
-## Paso 1 — Entrar al perfil existente
+## Paso 1 — Completar el perfil existente (en este orden)
 
-1. Entra a **https://business.google.com** con la cuenta Google con la que lo creaste
-2. Debería aparecer "soldaduras becker" en tu lista de empresas
-3. **Revisa el estado:** si dice "Verificación pendiente" o te pide verificar → hazlo AHORA
-   (Paso 5). Sin verificación el perfil es invisible en Maps, da igual lo demás.
-4. Con el perfil abierto, completa/corrige cada campo con los datos de abajo
-   (aprovecha de poner el nombre bien escrito: `Soldaduras Becker · Fierro y Madera`)
+En Google Maps toca tu negocio → **"Editar perfil"** (o entra a https://business.google.com):
+
+1. 🥇 **Sitio web** → pegar `https://5egaloz.github.io/soldaduras-becker/` (hoy no tiene NINGUNO)
+2. 🥈 **Categorías** → dejar principal `Soldador` y AGREGAR secundarias:
+   `Fabricante de muebles a medida` · `Herrería` · `Carpintería` (tu negocio real son los muebles,
+   solo "Soldador" no te muestra en búsquedas de muebles)
+3. 🥉 **Fotos** → subir las de la galería del sitio (portada: estantería industrial). Perfil sin fotos = invisible
+4. **Descripción** → pegar la del Paso 3 de abajo
+5. **Horario** → poner el REAL (y avisarme para dejar el sitio igual)
+6. **Zona de servicio** → agregar `Coyhaique` + `Región de Aysén`
+7. (Opcional, al final) **Nombre** → `Soldaduras Becker · Fierro y Madera` para calzar con el sitio.
+   ⚠️ OJO: cambiar el nombre a veces dispara re-verificación; hazlo solo después de completar todo lo demás
 
 ## Paso 2 — Datos para copiar y pegar
 
