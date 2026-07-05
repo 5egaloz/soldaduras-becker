@@ -9,8 +9,8 @@
 
 > ✅ **DIAGNÓSTICO 2026-07-05 (perfil visto en Maps):** el perfil EXISTE y está publicado como
 > **"Soldadura Becker y construcción"** · categoría: solo "Soldador" · Sgto. Aldea 221 ·
-> 9 5391 0713 · **SIN sitio web · SIN reseñas · SIN fotos destacadas** · horario: abre lun 9 a.m.
-> (⚠️ distinto al del sitio web: Lu–Sa 8–18 — confirmar cuál es el real).
+> 9 5391 0713 · **SIN sitio web · SIN reseñas · SIN fotos destacadas**.
+> ✅ Horario real confirmado por Fer (05-jul): **Lu–Sá 9:00–18:00** — sitio web ya corregido para calzar.
 > Está vivo pero vacío → por eso no compite. Checklist abajo, en orden de impacto.
 
 ## Paso 1 — Completar el perfil existente (en este orden)
@@ -23,7 +23,7 @@ En Google Maps toca tu negocio → **"Editar perfil"** (o entra a https://busine
    solo "Soldador" no te muestra en búsquedas de muebles)
 3. 🥉 **Fotos** → subir las de la galería del sitio (portada: estantería industrial). Perfil sin fotos = invisible
 4. **Descripción** → pegar la del Paso 3 de abajo
-5. **Horario** → poner el REAL (y avisarme para dejar el sitio igual)
+5. **Horario** → Lunes a Sábado 9:00–18:00, Domingo cerrado (igual que el sitio)
 6. **Zona de servicio** → agregar `Coyhaique` + `Región de Aysén`
 7. (Opcional, al final) **Nombre** → `Soldaduras Becker · Fierro y Madera` para calzar con el sitio.
    ⚠️ OJO: cambiar el nombre a veces dispara re-verificación; hazlo solo después de completar todo lo demás
@@ -42,9 +42,9 @@ En Google Maps toca tu negocio → **"Editar perfil"** (o entra a https://busine
 | **¿Ofreces servicios fuera de tu dirección?** | **SÍ** → zona de servicio |
 | **Zona de servicio** | `Coyhaique` + `Región de Aysén` (agrega ambas) |
 
-**Horario** (igual al del sitio web — si no es el real, avísame y corrijo también la página):
+**Horario** (confirmado, ya igual en el sitio web):
 
-- Lunes a Sábado: **08:00 – 18:00**
+- Lunes a Sábado: **09:00 – 18:00**
 - Domingo: Cerrado
 
 ## Paso 3 — Descripción del negocio (copiar y pegar)
