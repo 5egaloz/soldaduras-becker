@@ -9,7 +9,7 @@
   <meta name="theme-color" content="#0f1115" />
 
   <!-- Seguridad: Content-Security-Policy (defensa en profundidad) -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; base-uri 'self'; form-action 'self'" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; frame-src https://www.googletagmanager.com; base-uri 'self'; form-action 'self'" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
 
   <!-- Open Graph (cómo se ve al compartir el link en WhatsApp/Facebook) -->
@@ -55,8 +55,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <!-- Google Tag Manager (GTM-TWC8D49J, cargado desde assets/gtm.js por la CSP) -->
+  <script src="assets/gtm.js"></script>
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWC8D49J" height="0" width="0" title="Google Tag Manager"></iframe></noscript>
 
   <!-- ====== BARRA SUPERIOR ====== -->
   <header class="nav" id="inicio">
