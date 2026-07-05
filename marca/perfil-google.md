@@ -7,11 +7,18 @@
 
 ---
 
-## Paso 1 — Crear el perfil
+> ✅ **ACTUALIZACIÓN 2026-07-05:** el perfil YA EXISTE ("soldaduras becker", Sargento Aldea 221,
+> Coyhaique) pero **no aparece en búsquedas web** → falta verificarlo y/o completarlo.
+> El Paso 1 cambia a: entrar, revisar estado de verificación y completar todo lo de abajo.
 
-1. Entra a **https://business.google.com** con tu cuenta `fer.becker21@gmail.com`
-2. Botón **"Agregar empresa"** (o "Administrar ahora")
-3. Ve pegando los datos de abajo en cada pantalla
+## Paso 1 — Entrar al perfil existente
+
+1. Entra a **https://business.google.com** con la cuenta Google con la que lo creaste
+2. Debería aparecer "soldaduras becker" en tu lista de empresas
+3. **Revisa el estado:** si dice "Verificación pendiente" o te pide verificar → hazlo AHORA
+   (Paso 5). Sin verificación el perfil es invisible en Maps, da igual lo demás.
+4. Con el perfil abierto, completa/corrige cada campo con los datos de abajo
+   (aprovecha de poner el nombre bien escrito: `Soldaduras Becker · Fierro y Madera`)
 
 ## Paso 2 — Datos para copiar y pegar
 
@@ -22,7 +29,7 @@
 | **Categorías secundarias** | `Herrería` · `Soldador` · `Taller de soldadura` |
 | **Teléfono** | `+56 9 5391 0713` |
 | **Sitio web** | `https://5egaloz.github.io/soldaduras-becker/` |
-| **Dirección** | ⚠️ La escribes tú (dirección exacta del taller en Coyhaique) |
+| **Dirección** | `Sargento Aldea 221, Coyhaique` (ya está en el perfil; también la puse en el JSON-LD del sitio para que coincidan) |
 | **¿Atiendes clientes en la dirección?** | **SÍ** (elegiste dirección visible) |
 | **¿Ofreces servicios fuera de tu dirección?** | **SÍ** → zona de servicio |
 | **Zona de servicio** | `Coyhaique` + `Región de Aysén` (agrega ambas) |
