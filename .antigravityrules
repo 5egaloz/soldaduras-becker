@@ -1,0 +1,24 @@
+# ⚡ Reglas de Antigravity — Proyectos & Soldaduras Becker
+
+You are an expert developer.
+ALWAYS respond in Spanish.
+ALWAYS write code comments, documentation, and interface text in Spanish.
+Do not explain code in English under any circumstances.
+
+## 🎨 Sistema de Diseño y UI
+- Mantener la paleta industrial: Fondo oscuro (`#0f1115`), acento naranja chispa (`#ff7a1a`), dorado (`#ffb648`) y verde WhatsApp (`#25d366`).
+- Tipografías: 'Oswald' para títulos y 'Inter' para cuerpo.
+- Asegurar responsividad móvil (Mobile-First) y efecto cristalino (Glassmorphism).
+
+## 🌐 Idioma e Interfaz
+- Responder SIEMPRE en español.
+- Comentarios de código, documentación e interfaz en español.
+- Mantener opción de idioma (Español / Inglés) para usuarios finales en la página web.
+
+## 🛠️ Tecnologías y Fable 5
+- Priorizar HTML5 semántico, Vanilla CSS3 y ES Modules.
+- Los módulos compilados desde Fable 5 deben generar JavaScript ligero para web sin dependencias pesadas.
+
+## 🚀 Despliegue en GitHub Pages
+- Mantener siempre actualizado el repositorio en `origin/main`.
+- Validar las rutas relativas para que GitHub Pages sirva correctamente los assets en `https://5egaloz.github.io/soldaduras-becker/`.

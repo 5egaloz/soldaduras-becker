@@ -426,19 +426,53 @@ code { background: var(--bg-soft); padding: 2px 7px; border-radius: 6px; color: 
 .faq__a { padding: 16px 22px; color: var(--muted); font-size: 1rem; }
 .faq__a a { color: var(--accent-2); }
 
+/* ====== Selector de Idioma en Nav ====== */
+.lang-selector {
+  display: inline-flex; align-items: center; gap: 4px;
+  background: var(--bg-soft); border: 1px solid var(--line);
+  border-radius: 999px; padding: 3px 6px; margin-left: 4px;
+}
+.lang-btn {
+  background: none; border: none; color: var(--muted);
+  font-size: .82rem; font-weight: 600; padding: 3px 8px;
+  border-radius: 999px; cursor: pointer; transition: color .2s, background .2s;
+}
+.lang-btn:hover { color: var(--text); }
+.lang-btn.is-active {
+  background: var(--accent); color: #1a1206;
+}
+
 /* ====== Galería: pista de click + lightbox ====== */
 .gallery__item { cursor: zoom-in; }
 .lightbox {
   position: fixed; inset: 0; z-index: 100;
-  background: rgba(5,7,10,.93);
+  background: rgba(5,7,10,.95);
   display: none; align-items: center; justify-content: center; padding: 24px;
 }
 .lightbox.is-open { display: flex; }
-.lightbox img { max-width: 92vw; max-height: 88vh; border-radius: 10px; box-shadow: 0 24px 70px rgba(0,0,0,.65); }
+.lightbox__content { position: relative; display: flex; flex-direction: column; align-items: center; }
+.lightbox img { max-width: 90vw; max-height: 82vh; border-radius: 10px; box-shadow: 0 24px 70px rgba(0,0,0,.7); }
 .lightbox__close {
-  position: absolute; top: 14px; right: 22px;
-  font-size: 2.4rem; line-height: 1; color: #fff;
-  background: none; border: 0; cursor: pointer;
+  position: absolute; top: -45px; right: 0;
+  font-size: 2.4rem; line-height: 1; color: var(--muted);
+  background: none; border: 0; cursor: pointer; transition: color .2s;
+}
+.lightbox__close:hover { color: #fff; }
+.lightbox__nav {
+  position: absolute; top: 50%; width: 100%; display: flex;
+  justify-content: space-between; transform: translateY(-50%); pointer-events: none; padding: 0 10px;
+}
+.lightbox__btn {
+  pointer-events: auto; background: rgba(15,17,21,.75); color: #fff;
+  border: 1px solid var(--line); border-radius: 50%; width: 48px; height: 48px;
+  font-size: 1.4rem; display: flex; align-items: center; justify-content: center;
+  cursor: pointer; transition: background .2s, border-color .2s, transform .15s;
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+}
+.lightbox__btn:hover { background: var(--accent); color: #1a1206; border-color: var(--accent); transform: scale(1.08); }
+.lightbox__counter {
+  margin-top: 14px; color: var(--muted); font-size: .9rem; font-weight: 500;
+  background: rgba(15,17,21,.6); padding: 4px 12px; border-radius: 999px; border: 1px solid var(--line);
 }
 
 /* ====== Responsive ====== */
