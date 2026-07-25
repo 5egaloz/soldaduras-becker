@@ -51,7 +51,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=20260725" />
   <!-- Google Tag Manager (GTM-TWC8D49J, cargado desde assets/gtm.js por la CSP) -->
   <script src="assets/gtm.js"></script>
 </head>
@@ -70,13 +70,13 @@
         <span></span><span></span><span></span>
       </button>
       <nav class="nav__links" id="menu">
-        <a href="index.html">Inicio</a>
-        <a href="servicios.html">Servicios</a>
-        <a href="galeria.html" class="is-active">Trabajos</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="faq.html">FAQ</a>
+        <a href="index.html" data-i18n-en="Home">Inicio</a>
+        <a href="servicios.html" data-i18n-en="Services">Servicios</a>
+        <a href="galeria.html" class="is-active" data-i18n-en="Gallery">Trabajos</a>
+        <a href="nosotros.html" data-i18n-en="About Us">Nosotros</a>
+        <a href="faq.html" data-i18n-en="FAQ">FAQ</a>
         <a class="nav__ig" href="https://www.instagram.com/muebleria.becker/" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
-        <a href="#" class="nav__cta" data-wa="56953910713" data-msg="Hola, vi su galería y quiero cotizar un trabajo parecido.">Cotizar</a>
+        <a href="#" class="nav__cta" data-wa="56953910713" data-msg="Hola, vi su galería y quiero cotizar un trabajo parecido." data-msg-en="Hello, I saw your gallery and want to get a quote." data-i18n-en="Get Quote">Cotizar</a>
       </nav>
     </div>
   </header>
@@ -84,10 +84,10 @@
   <!-- ====== CABECERA ====== -->
   <section class="page-header">
     <div class="container">
-      <p class="crumbs"><a href="index.html">Inicio</a> › Trabajos</p>
-      <p class="page-header__eyebrow">PORTAFOLIO</p>
-      <h1>Trabajos <span>reales</span> del taller</h1>
-      <p>Cada pieza salió de mi taller y hoy está en uso. Toca cualquier foto para verla en grande. ¿Quieres algo parecido? Mándamela por WhatsApp y la cotizamos.</p>
+      <p class="crumbs"><a href="index.html" data-i18n-en="Home">Inicio</a> › <span data-i18n-en="Gallery">Trabajos</span></p>
+      <p class="page-header__eyebrow" data-i18n-en="PORTFOLIO">PORTAFOLIO</p>
+      <h1>Trabajos <span data-i18n-en="from the workshop">reales</span> del taller</h1>
+      <p data-i18n-en="Every piece was built in my workshop and is in use today. Click any photo to enlarge. Want something similar? Send it over WhatsApp for a quote.">Cada pieza salió de mi taller y hoy está en uso. Toca cualquier foto para verla en grande. ¿Quieres algo parecido? Mándamela por WhatsApp y la cotizamos.</p>
     </div>
   </section>
 
@@ -108,13 +108,6 @@
         <figure class="gallery__item"><img src="assets/trabajos/trabajo-11.jpg" alt="Estantería escalera de madera ambientada con plantas en el living" loading="lazy" /></figure>
         <figure class="gallery__item"><img src="assets/trabajos/trabajo-12.jpg" alt="Mesa de picnic con bancas en madera maciza para terraza" loading="lazy" /></figure>
         <figure class="gallery__item"><img src="assets/trabajos/trabajo-13.jpg" alt="Estantería columna tipo casillero de madera de pino" loading="lazy" /></figure>
-
-        <!-- ====== AGREGAR MÁS FOTOS ======
-             Para sumar trabajos, copia una línea de arriba y cambia el nombre del archivo.
-             Pon las fotos nuevas en la carpeta assets/trabajos/ y describe la foto en alt="...".
-             Ejemplo:
-             <figure class="gallery__item"><img src="assets/trabajos/trabajo-9.jpg" alt="Describe aquí el trabajo" loading="lazy" /></figure>
-        -->
       </div>
     </div>
   </section>
@@ -122,9 +115,9 @@
   <!-- ====== CTA ====== -->
   <section class="section cta">
     <div class="container cta__inner">
-      <h2>¿Te gustó alguno?</h2>
-      <p>Lo adapto a tu espacio y presupuesto. Mándame la foto que te gustó y te cotizo sin compromiso.</p>
-      <a class="btn btn--wa btn--big" href="#" data-wa="56953910713" data-msg="Hola, vi su galería y quiero algo parecido a uno de sus trabajos.">
+      <h2 data-i18n-en="Liked Any Project?">¿Te gustó alguno?</h2>
+      <p data-i18n-en="I adapt it to your space and budget. Send me the photo you liked and I will quote it.">Lo adapto a tu espacio y presupuesto. Mándame la foto que te gustó y te cotizo sin compromiso.</p>
+      <a class="btn btn--wa btn--big" href="#" data-wa="56953910713" data-msg="Hola, vi su galería y quiero algo parecido a uno de sus trabajos." data-msg-en="Hello, I saw your gallery and want something similar." data-i18n-en="📲 I Want Something Like This">
         <span class="btn__icon">📲</span> Quiero algo así
       </a>
       <div class="cta__alt">
@@ -138,11 +131,11 @@
   <footer class="footer">
     <div class="container footer__inner">
       <nav class="footer__links">
-        <a href="index.html">Inicio</a>
-        <a href="servicios.html">Servicios</a>
-        <a href="galeria.html">Trabajos</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="faq.html">FAQ</a>
+        <a href="index.html" data-i18n-en="Home">Inicio</a>
+        <a href="servicios.html" data-i18n-en="Services">Servicios</a>
+        <a href="galeria.html" data-i18n-en="Gallery">Trabajos</a>
+        <a href="nosotros.html" data-i18n-en="About Us">Nosotros</a>
+        <a href="faq.html" data-i18n-en="FAQ">FAQ</a>
         <a href="https://www.instagram.com/muebleria.becker/" target="_blank" rel="noopener">Instagram</a>
       </nav>
       <span data-edit="nombre-negocio">Soldaduras Becker · Fierro y Madera</span>
@@ -150,11 +143,11 @@
     </div>
   </footer>
 
-  <a class="wa-float" href="#" data-wa="56953910713" data-msg="Hola, vi su página y quiero un presupuesto." aria-label="WhatsApp">
+  <a class="wa-float" href="#" data-wa="56953910713" data-msg="Hola, vi su página y quiero un presupuesto." data-msg-en="Hello, I saw your site and want a quote." aria-label="WhatsApp">
     <span>💬</span>
   </a>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=20260725"></script>
   <script src="analytics.js"></script>
 </body>
 </html>

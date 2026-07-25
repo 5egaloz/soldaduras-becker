@@ -54,7 +54,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=20260725" />
   <!-- Google Tag Manager (GTM-TWC8D49J, cargado desde assets/gtm.js por la CSP) -->
   <script src="assets/gtm.js"></script>
 </head>
@@ -73,13 +73,13 @@
         <span></span><span></span><span></span>
       </button>
       <nav class="nav__links" id="menu">
-        <a href="index.html" class="is-active">Inicio</a>
-        <a href="servicios.html">Servicios</a>
-        <a href="galeria.html">Trabajos</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="faq.html">FAQ</a>
+        <a href="index.html" class="is-active" data-i18n-en="Home">Inicio</a>
+        <a href="servicios.html" data-i18n-en="Services">Servicios</a>
+        <a href="galeria.html" data-i18n-en="Gallery">Trabajos</a>
+        <a href="nosotros.html" data-i18n-en="About Us">Nosotros</a>
+        <a href="faq.html" data-i18n-en="FAQ">FAQ</a>
         <a class="nav__ig" href="https://www.instagram.com/muebleria.becker/" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
-        <a href="#" class="nav__cta" data-wa="56953910713" data-msg="Hola, vi su página y quiero cotizar un mueble o trabajo a medida.">Cotizar</a>
+        <a href="#" class="nav__cta" data-wa="56953910713" data-msg="Hola, vi su página y quiero cotizar un mueble o trabajo a medida." data-msg-en="Hello, I saw your site and I want to request a custom quote." data-i18n-en="Get Quote">Cotizar</a>
       </nav>
     </div>
   </header>
@@ -87,20 +87,20 @@
   <!-- ====== HERO ====== -->
   <section class="hero">
     <div class="container hero__content">
-      <p class="hero__eyebrow">FIERRO · MADERA · SOLDADURA</p>
-      <h1 class="hero__title">Muebles en fierro y madera<br><span>que duran años, no meses.</span></h1>
-      <p class="hero__sub">Estanterías, mesas, mesones y muebles a medida. Fierro soldado + madera, a tiempo y con garantía.</p>
+      <p class="hero__eyebrow" data-i18n-en="STEEL · WOOD · WELDING">FIERRO · MADERA · SOLDADURA</p>
+      <h1 class="hero__title">Muebles en fierro y madera<br><span data-i18n-en="that last for years, not months.">que duran años, no meses.</span></h1>
+      <p class="hero__sub" data-i18n-en="Shelving, tables, desks, and custom furniture. Welded steel + wood, on time and with warranty.">Estanterías, mesas, mesones y muebles a medida. Fierro soldado + madera, a tiempo y con garantía.</p>
       <div class="hero__actions">
         <!-- ====== EDITA: tu WhatsApp en data-wa (código país + número, sin + ni espacios). Chile: 56953910713 ====== -->
-        <a class="btn btn--wa" href="#" data-wa="56953910713" data-msg="Hola, vi su página y quiero cotizar un mueble o estructura a medida.">
+        <a class="btn btn--wa" href="#" data-wa="56953910713" data-msg="Hola, vi su página y quiero cotizar un mueble o estructura a medida." data-msg-en="Hello, I saw your site and I want to request a quote." data-i18n-en="📲 Request Quote via WhatsApp">
           <span class="btn__icon">📲</span> Pedir presupuesto por WhatsApp
         </a>
-        <a class="btn btn--ghost" href="#trabajos">Ver trabajos reales</a>
+        <a class="btn btn--ghost" href="#trabajos" data-i18n-en="View Real Projects">Ver trabajos reales</a>
       </div>
       <ul class="hero__badges">
-        <li>✔ Presupuesto sin compromiso</li>
-        <li>✔ Trabajo garantizado</li>
-        <li>✔ A la medida de tu espacio</li>
+        <li data-i18n-en="✔ Free Quote">✔ Presupuesto sin compromiso</li>
+        <li data-i18n-en="✔ Guaranteed Work">✔ Trabajo garantizado</li>
+        <li data-i18n-en="✔ Tailored to your space">✔ A la medida de tu espacio</li>
       </ul>
     </div>
   </section>
@@ -108,8 +108,8 @@
   <!-- ====== TRABAJOS / GALERÍA (fotos primero) ====== -->
   <section class="section section--dark" id="trabajos">
     <div class="container">
-      <h2 class="section__title">Trabajos reales</h2>
-      <p class="section__lead">Salió de mi taller y está en uso hoy.</p>
+      <h2 class="section__title" data-i18n-en="Real Projects">Trabajos reales</h2>
+      <p class="section__lead" data-i18n-en="Crafted in my workshop and currently in use.">Salió de mi taller y está en uso hoy.</p>
       <div class="gallery">
         <figure class="gallery__item"><img src="assets/trabajos/trabajo-1.jpg" alt="Estantería industrial de fierro negro y madera instalada en casa de cliente" loading="lazy" /></figure>
         <figure class="gallery__item"><img src="assets/trabajos/trabajo-2.jpg" alt="Mueble exhibidor de madera a medida para tienda de vinos" loading="lazy" /></figure>
@@ -126,15 +126,15 @@
   <!-- ====== SERVICIOS (info condensada) ====== -->
   <section class="section" id="servicios">
     <div class="container">
-      <h2 class="section__title">Lo que hago</h2>
-      <p class="section__lead">Fierro, madera o los dos. Todo a la medida de tu espacio.</p>
+      <h2 class="section__title" data-i18n-en="What I Do">Lo que hago</h2>
+      <p class="section__lead" data-i18n-en="Steel, wood, or both. Custom built for your space.">Fierro, madera o los dos. Todo a la medida de tu espacio.</p>
       <div class="grid grid--3">
-        <article class="card"><div class="card__icon">🏪</div><h3>Estanterías para negocios</h3><p>Tiendas, bodegas y containers. Firmes y a medida.</p></article>
-        <article class="card"><div class="card__icon">🪵</div><h3>Mesas y mesones</h3><p>Comedor, trabajo o centro. Patas de fierro que duran.</p></article>
-        <article class="card"><div class="card__icon">🗄️</div><h3>Muebles fierro + madera</h3><p>Racks, soportes y muebles estilo industrial.</p></article>
-        <article class="card"><div class="card__icon">📐</div><h3>Repisas y muebles de madera</h3><p>Repisas, fruteros y muebles para tu casa.</p></article>
-        <article class="card"><div class="card__icon">⚡</div><h3>Soldadura general</h3><p>Rejas, portones, reparaciones y refuerzos.</p></article>
-        <article class="card"><div class="card__icon">✨</div><h3>Trabajo a medida</h3><p>Mándame una foto de referencia y lo fabricamos.</p></article>
+        <article class="card"><div class="card__icon">🏪</div><h3 data-i18n-en="Business Shelving">Estanterías para negocios</h3><p data-i18n-en="Shops, warehouses, and storage containers. Sturdy and custom fit.">Tiendas, bodegas y containers. Firmes y a medida.</p></article>
+        <article class="card"><div class="card__icon">🪵</div><h3 data-i18n-en="Tables & Desks">Mesas y mesones</h3><p data-i18n-en="Dining, workspace, or coffee tables. Steel legs built to last.">Comedor, trabajo o centro. Patas de fierro que duran.</p></article>
+        <article class="card"><div class="card__icon">🗄️</div><h3 data-i18n-en="Steel + Wood Furniture">Muebles fierro + madera</h3><p data-i18n-en="Racks, mounts, and industrial style furniture.">Racks, soportes y muebles estilo industrial.</p></article>
+        <article class="card"><div class="card__icon">📐</div><h3 data-i18n-en="Wooden Shelves & Units">Repisas y muebles de madera</h3><p data-i18n-en="Shelves, stands, and home wooden furniture.">Repisas, fruteros y muebles para tu casa.</p></article>
+        <article class="card"><div class="card__icon">⚡</div><h3 data-i18n-en="General Welding">Soldadura general</h3><p data-i18n-en="Fences, gates, repairs, and structural reinforcement.">Rejas, portones, reparaciones y refuerzos.</p></article>
+        <article class="card"><div class="card__icon">✨</div><h3 data-i18n-en="Custom Work from Photo">Trabajo a medida</h3><p data-i18n-en="Send me a reference picture and we will build it.">Mándame una foto de referencia y lo fabricamos.</p></article>
       </div>
     </div>
   </section>
@@ -142,12 +142,12 @@
   <!-- ====== POR QUÉ NOSOTROS ====== -->
   <section class="section" id="porque">
     <div class="container">
-      <h2 class="section__title">¿Por qué trabajar conmigo?</h2>
+      <h2 class="section__title" data-i18n-en="Why Work With Me?">¿Por qué trabajar conmigo?</h2>
       <div class="grid grid--4 why">
-        <div class="why__item"><span class="why__num">1</span><h3>Cumplo el tiempo</h3><p>Te doy una fecha y la respeto. Sin pretextos.</p></div>
-        <div class="why__item"><span class="why__num">2</span><h3>Precio claro</h3><p>Presupuesto por escrito antes de empezar. Sin sorpresas.</p></div>
-        <div class="why__item"><span class="why__num">3</span><h3>Material de calidad</h3><p>Buen metal, buena pintura, buena soldadura. Que dure.</p></div>
-        <div class="why__item"><span class="why__num">4</span><h3>Garantía</h3><p>Si algo falla por mi trabajo, lo arreglo sin costo.</p></div>
+        <div class="why__item"><span class="why__num">1</span><h3 data-i18n-en="On Time Delivery">Cumplo el tiempo</h3><p data-i18n-en="I set a deadline and respect it. No excuses.">Te doy una fecha y la respeto. Sin pretextos.</p></div>
+        <div class="why__item"><span class="why__num">2</span><h3 data-i18n-en="Clear Pricing">Precio claro</h3><p data-i18n-en="Written estimate before starting. No hidden fees.">Presupuesto por escrito antes de empezar. Sin sorpresas.</p></div>
+        <div class="why__item"><span class="why__num">3</span><h3 data-i18n-en="Quality Materials">Material de calidad</h3><p data-i18n-en="Solid steel, quality paint, clean welds. Made to last.">Buen metal, buena pintura, buena soldadura. Que dure.</p></div>
+        <div class="why__item"><span class="why__num">4</span><h3 data-i18n-en="Warranty">Garantía</h3><p data-i18n-en="If anything fails due to craftsmanship, I fix it free.">Si algo falla por mi trabajo, lo arreglo sin costo.</p></div>
       </div>
     </div>
   </section>
@@ -155,9 +155,9 @@
   <!-- ====== CTA / CONTACTO ====== -->
   <section class="section cta" id="contacto">
     <div class="container cta__inner">
-      <h2>¿Tienes un mueble o proyecto en mente?</h2>
-      <p>Mándame una foto, un plano o la idea no más. Te paso el presupuesto sin compromiso.</p>
-      <a class="btn btn--wa btn--big" href="#" data-wa="56953910713" data-msg="Hola, quiero cotizar un mueble o trabajo en fierro y madera.">
+      <h2 data-i18n-en="Do you have a project in mind?">¿Tienes un mueble o proyecto en mente?</h2>
+      <p data-i18n-en="Send me a picture or drawing. I will send you a quote with no commitment.">Mándame una foto, un plano o la idea no más. Te paso el presupuesto sin compromiso.</p>
+      <a class="btn btn--wa btn--big" href="#" data-wa="56953910713" data-msg="Hola, quiero cotizar un mueble o trabajo en fierro y madera." data-msg-en="Hello, I want to request a quote for a custom project." data-i18n-en="📲 Chat on WhatsApp">
         <span class="btn__icon">📲</span> Escribir por WhatsApp
       </a>
       <div class="cta__alt">
@@ -172,11 +172,11 @@
   <footer class="footer">
     <div class="container footer__inner">
       <nav class="footer__links">
-        <a href="index.html">Inicio</a>
-        <a href="servicios.html">Servicios</a>
-        <a href="galeria.html">Trabajos</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="faq.html">FAQ</a>
+        <a href="index.html" data-i18n-en="Home">Inicio</a>
+        <a href="servicios.html" data-i18n-en="Services">Servicios</a>
+        <a href="galeria.html" data-i18n-en="Gallery">Trabajos</a>
+        <a href="nosotros.html" data-i18n-en="About Us">Nosotros</a>
+        <a href="faq.html" data-i18n-en="FAQ">FAQ</a>
         <a href="https://www.instagram.com/muebleria.becker/" target="_blank" rel="noopener">Instagram</a>
       </nav>
       <span data-edit="nombre-negocio">Soldaduras Becker · Fierro y Madera</span>
@@ -185,11 +185,11 @@
   </footer>
 
   <!-- Botón flotante de WhatsApp -->
-  <a class="wa-float" href="#" data-wa="56953910713" data-msg="Hola, vi su página y quiero un presupuesto." aria-label="WhatsApp">
+  <a class="wa-float" href="#" data-wa="56953910713" data-msg="Hola, vi su página y quiero un presupuesto." data-msg-en="Hello, I saw your site and want a quote." aria-label="WhatsApp">
     <span>💬</span>
   </a>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=20260725"></script>
   <script src="analytics.js"></script>
 </body>
 </html>
